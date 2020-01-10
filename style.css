@@ -391,8 +391,14 @@ nav{
 #content-main{
 	width: 80%;
 }
+#content-right{
+	width: 80%;
+}
 .content{
 	width: 100%;
+}
+#content-left{
+	width: 80%;
 }
 #wrapper{
 	width: 100%;
