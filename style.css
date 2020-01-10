@@ -32,7 +32,7 @@ body {
 	}
 	nav{
 	position:absolute;
-	width:auto;
+	width:90%;
 	height:60px;
 	background-color:#000;
 	
@@ -385,7 +385,7 @@ background-color: #45a049;
 nav{
 	height: auto;
 	overflow: hidden;
-	padding: 5px;
+	padding: 2px;
 	width: 100%;
 }
 #content-main{
