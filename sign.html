@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+</head>
+<body>
+	<style >label {
+			display:block;
+            
+            color: #000;
+			}
+
+			
+            input {
+                width: 70%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display:inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+
+
+            }
+         
+			input[type=text]:focus {
+				background-color: lightblue;
+			}
+            input[type=radio]{
+                width: 15px;
+
+
+
+            }
+
+			input[type=password]:focus {
+				background-color: lightpink;
+			}
+			
+            input[type=submit],input[type=reset] {
+                width: 25%;
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            input[type=submit]:hover {
+                background-color: #45a049;
+            }
+
+           #a {
+                border-radius: 10px;
+                background:rgba(0,0,0,0);
+                box-shadow: 0 15px 25px rgba(0,0,0,.8);
+                padding: 25px ;
+                width: 500px;
+				margin:50px 200px;
+            }
+            h2{
+                text-align: center;
+                color: #000;
+                
+            }
+            a{
+                color: green;
+                float: right;
+            }
+            a:visited{
+                color: red;
+            }
+            a:hover{
+                color: yellow;
+            }</style>
+<div id="wrapper">
+<div id="header"><nav><img src="public/img/ofs.png" height="54px" width="150px" style="margin:2px 2px" />
+	<ul>
+	<li><a href="index.html" class="active">Home</a></li>
+	<li><a href="#">Mens</a>
+	<ul>
+		<li><a href="mjeans.html">Trousers</a></li>
+		<li><a href="mshirts.html">Shirts</a></li>
+		<li><a href="macc.html">Accessories</a></li>
+		<li><a href="mfootwear.html">Footwear</a></li>
+	</ul>
+	</li>
+	<li><a href="#"contact>Womens</a>
+	<ul>
+		<li><a href="fjeans.html">Jeans</a></li>
+		<li><a href="fshirts.html">Shirts</a></li>
+		<li><a href="facc.html">Accessories</a></li>
+		<li><a href="ffootwear.html">Footwear</a></li>
+	</ul>
+	</li>
+	<li><a href="#">Kids</a>
+	<ul>
+		<li><a href="#">Bottom wear</a></li>
+		<li><a href="#">Top wear</a></li>
+		<li><a href="#">Footwear</a></li>
+		
+	</ul>
+	</li>
+	<li><a href="#"><img src="https://img.icons8.com/offices/22/000000/shopping-cart.png"><sup>cart</sup></a></li>
+	<li><a href="about.html">About us</a></li>
+	<li><a href="signup.html">Signup</a></li>
+	</ul>
+	</nav></div>
+<div id="content">
+
+        
+    
+  
+        <div id="a"><h2>Dont have an Account? Signup here...</h2>
+            <form name="reg_form"  method="post" action="reg.php">
+                <label>Username</label> <input type ="text" name="uname" id="un" value="" placeholder="Enter username" required="required" /><br>
+                <label>Password</label> <input type="password" name="passwd" id="p1" value="" placeholder="Enter password of atleast 6 characters" required="required"/><br>
+                <label>Retype Password</label> <input type="password" name="rpasswd" id="p2" value="" required="required"/><br>
+                <label>Email</label> <input type="text" name="email"  value="" id="em" required="required"/><br>
+                <label>Mobile</label> <input type="text" name="mobile"  value="" id="ph" required="required"/><br>
+                <label>Gender:</label><input type="radio" name="r1" value="male" id="m1">M &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="r1" value="female" id="f1">F<br>
+                <input type="submit" value="Register" name="submitbtn" />
+		<input type="reset" value="Reset" name="submitbtn" />
+	</form>
+		<span id="mob"></span><br>
+        <a href="index.html">Go to homepage</a>
+        </div>
+        
+<div id="footer"><h2>Online Fashion store pvt ltd. Margao Goa 403601</h2></div>
+
+<div id="bottom">Designed by Chaitanya Dessai copyright 2019 &copy;</div>
+<section>
+
+    </section>
+
+    <a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" >	<title>user registration</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+        <script>
+					
+            function validateform() {
+                var name = document.reg_form.uname.value;
+
+                if (name === null || name === "") {
+                    window.alert("Username can't be null");
+					document.getElementById("un").focus();
+                    return false;
+                }
+                
+
+                var password = document.reg_form.passwd.value;
+                if (password.length < 6) {
+                    alert("Password must be at least 6 characters long.");
+					 document.getElementById("p1").focus();
+                    return false;
+                }
+
+                var password1 = document.reg_form.rpasswd.value;
+
+                if (password !== password1) {
+                    alert("password didnt match!");
+					 document.getElementById("p2").focus();;
+                    return false;
+                }
+
+                var x = document.reg_form.email.value;
+                var atposition = x.indexOf("@");
+                var dotposition = x.lastIndexOf(".");
+                if (atposition < 1 || dotposition < atposition + 2 || dotposition + 2 >= x.length) {
+                    alert("Please enter a valid e-mail address");
+					 document.getElementById("em").focus();
+                    return false;
+                }
+                var mal=document.reg_form.r1.value;
+                if (mal===null||mal==="") {
+                    window.alert("gender cant be null");
+                   
+                    return false;
+                }
+                 var fmal=document.reg_form.r1.value;
+                if (fmal===null||fmal==="") {
+                    window.alert("gender cant be null");
+                    return false;
+                }
+                var mob_num = document.reg_form.mobile.value;
+                if (isNaN(mob_num)) {
+                    document.getElementById("mob").innerHTML = "Enter Numeric value only";
+                    document.getElementById("ph").focus();
+					return false;
+                } else if (mob_num.length !== 10) {
+                    document.getElementById("mob").innerHTML ="Mobile number should be of 10 digits";
+                    document.getElementById("ph").focus();
+					return false;
+                } else {
+				    window.alert( "User created success");
+                    return true;
+                }
+            }
+
+
+        </script>  
+</head>
+<body>
+<div id="wrapper">
+<div id="header"><nav><p>Online fashion store</p>
+	<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="#">Mens</a>
+	<ul>
+		<li><a href="mjeans.html">Trousers</a></li>
+		<li><a href="mshirts.html">Shirts</a></li>
+		<li><a href="macc.html">Accessories</a></li>
+		<li><a href="mfootwear.html">Footwear</a></li>
+	</ul>
+	</li>
+	<li><a href="#"contact>Womens</a>
+	<ul>
+		<li><a href="fjeans.html">Jeans</a></li>
+		<li><a href="fshirts.html">Shirts</a></li>
+		<li><a href="facc.html">Accessories</a></li>
+		<li><a href="ffootwear.html">Footwear</a></li>
+	</ul>
+	</li>
+	<li><a href="#">Kids</a>
+	<ul>
+		<li><a href="#">Bottom wear</a></li>
+		<li><a href="#">Top wear</a></li>
+		<li><a href="#">Footwear</a></li>
+		
+	</ul>
+	</li>
+	<li><a href="#"><img src="https://img.icons8.com/offices/22/000000/shopping-cart.png"><sup>cart</sup></a></li>
+	<li><a href="about.html">About us</a></li>
+	<li><a href="signup.html">Signup</a></li>
+	</ul>
+	</nav></div>
+<div id="content">
+<div><h2>User Registration Form</h2>
+            <form name="reg_form" onsubmit="return validateform()"  >
+                <label>Username</label> <input type ="text" name="uname" id="un" value="" placeholder="Enter username" /><br>
+                <label>Password</label> <input type="password" name="passwd" id="p1" value="" placeholder="Enter password of atleast 6 characters" /><br>
+                <label>Retype Password</label> <input type="password" name="rpasswd" id="p2" value="" /><br>
+                <label>Email</label> <input type="text" name="email"  value="" id="em"/><br>
+                <label>Mobile</label> <input type="text" name="mobile"  value="" id="ph"/><br>
+                <label>Gender:</label><input type="radio" name="r1" value="male" id="m1">M &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="r1" value="female" id="f1">F<br>
+                <input type="submit" value="Register" name="submitbtn" />
+		<input type="reset" value="Reset" name="submitbtn" />
+	</form>
+		<span id="mob"></span><br>
+        </div>
+        
+<div id="footer"><p>Online Fashion store pvt ltd. Margao Goa 403601</p></div>
+
+<div id="bottom">Designed by chaitanya dessai</div>
+<a href="index.html">Go to homepage</a>
+</div>
+</body>
+</html>

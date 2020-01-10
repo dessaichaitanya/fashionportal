@@ -1,0 +1,192 @@
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Acme|Archivo+Narrow|Asap|Assistant|Bad+Script|Bree+Serif|EB+Garamond|El+Messiri|Fascinate+Inline|Fira+Sans+Condensed|Fugaz+One|Hepta+Slab|Lexend+Peta|Merriweather|Mukta|Open+Sans+Condensed:300|PT+Sans+Caption|PT+Serif|Patua+One|Questrial|Raleway|Roboto|Slabo+27px|Source+Sans+Pro|Ubuntu+Condensed|Ubuntu+Mono&display=swap" rel="stylesheet">
+<style>
+
+p{
+font-family: 'El Messiri', sans-serif;
+}
+.cf{
+	background-image:url('regal.png');
+	background-color: red;
+                
+width:200px;
+height:250px;
+background-color:#fff;
+}
+textarea{
+margin-left: 8px;
+
+width:190px;
+height:100px;
+}
+label{
+display:block;
+margin-left: 8px;
+               
+}
+input[type=email]:valid{
+outline-color:green;}
+input[type=email]:invalid{
+outline-color:red;
+}
+input{
+margin-left: 8px;
+border-radius:4px;
+padding: 4px 8px;
+}
+input[type=text]:valid{
+outline-color:green;}
+input[type=text]:invalid{
+outline-color:red;}
+
+    input[type=submit],input[type=reset] {
+                width: 100px;
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 99px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+				text-transform:uppercase;
+				font-family: 'Patua One', cursive;
+            }
+			h2{
+	font-family: 'Raleway', sans-serif;
+
+			
+			font-family: 'Roboto', sans-serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Hepta Slab', serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'PT Serif', serif;
+font-family: 'Asap', sans-serif;
+font-family: 'Acme', sans-serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Bree Serif', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Archivo Narrow', sans-serif;
+font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'Fascinate Inline', cursive;
+font-family: 'Ubuntu Condensed', sans-serif;
+font-family: 'PT Sans Caption', sans-serif;
+font-family: 'Assistant', sans-serif;
+font-family: 'Patua One', cursive;
+font-family: 'Bad Script', cursive;
+font-family: 'Lexend Peta', sans-serif;
+font-family: 'El Messiri', sans-serif;
+font-family: 'Fugaz One', cursive;
+font-family: 'Ubuntu Mono', monospace;
+			
+			}
+			#ff{
+		font-family: 'Fira Sans Condensed', sans-serif;
+		color: white;
+			 width: 100px;
+                background-color: #4CAF50;
+				   border: none;
+				   padding: 14px 20px;
+    
+			}
+</style>
+<script>
+
+function showform(){
+var form="<div class='cf'><form name='frm'><label for='fnm'>Name</label><input type='text' id='fnm' required='required' placeholder='enter your name'><br><label for='em'>Email</label><input type='email' id='em' required placeholder='enter email id here'><br><label for='comm'>Comment</label><textarea id='comm' placeholder='enter your comment' ></textarea><br><input type='submit' value='submit'></form></div>"
+document.getElementById('show').innerHTML=form;
+}
+
+</script>
+
+
+
+	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+</head>
+<body>
+	<div id="wrapper">
+<div id="header"><nav><img src="public/img/ofs.png" height="54px" width="150px" style="margin:2px 2px" /> <!-----<input type="search" name="" placeholder="Type to search.."><a href="#" class="sbtn"><i class="fa fa-search" aria-hidden="true"></i></a> -->
+	<div class="search-box">
+       <input type="text" name="" class="search-txt" placeholder="Type to search"/>
+       <a class="search-btn" href="#">
+       <i class="fas fa-search"></i>
+       </a>
+     </div>
+<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="#">Mens</a>
+	<ul>
+		<li><a href="mjeans.html">Trousers</a></li>
+		<li><a href="mshirts.html">Shirts</a></li>
+		<li><a href="macc.html">Accessories</a></li>
+		<li><a href="mfootwear.html">Footwear</a></li>
+	</ul>
+	</li>
+	<li><a href="#"contact>Womens</a>
+	<ul>
+		<li><a href="fjeans.html">Jeans</a></li>
+		<li><a href="fshirts.html">Shirts</a></li>
+		<li><a href="facc.html">Accessories</a></li>
+		<li><a href="ffootwear.html">Footwear</a></li>
+	</ul>
+</li>
+	<li><a href="#">Kids</a>
+	<ul>
+		<li><a href="kjeans.html">Ethnic wear</a></li>
+		<li><a href="kshirts.html">Top wear</a></li>
+		<li><a href="kfootwear.html">Footwear</a></li>
+		
+	</ul>
+</li>
+	<li><a href="cart.html"><img src="https://img.icons8.com/offices/22/000000/shopping-cart.png"><sup>cart</sup></a></li>
+	<li><a href="about.html">About us</a></li>
+	<!--<li><a href="contact.html">Contact us</a></li>-->
+	<li><a href="signup.html">Signup</a></li>
+	<li><a href="gallery.html">Gallery</a></li>
+	</ul>
+</nav></div>
+
+
+
+<div class="abt2">
+	<h2>About Us</h2><p>India’s Ultimate Online Shopping Site Snapdeal’s vision is to create India’s most reliable and frictionless commerce ecosystem that creates life-changing experiences for buyers and sellers.</p><p> In February 2010, Kunal Bahl along with Rohit Bansal, started Snapdeal.com - India’s largest online shopping marketplace, with the widest assortment of 35 million plus products across 800 plus diverse categories from over 125,000 regional, national, and international brands and retailers. With millions of users and more than 300,000 sellers, Snapdeal is the online shopping site for Internet users across the country, delivering to 6000+ cities and towns in India.</p><p> In its journey till now, Snapdeal has partnered with several global marquee investors and individuals such as SoftBank, BlackRock, Temasek, Foxconn, Alibaba, eBay Inc., Premji Invest, Intel Capital, Bessemer Venture Partners, Mr. Ratan Tata, among others.</p><p> Online Shopping – A Boon The trend of online shopping is becoming a household name and so is Snapdeal.</p><p> Snapdeal is the preferred choice of hundreds of thousands of online shoppers given its mammoth assortment of 15 million+ products, quick delivery even to the remotest corners of the country, and daily deals, discounts & offers to make products available at slashed down prices to our valuable customers.</p><p> Get Started! Shop Online Today at Snapdeal If you have been missing out on all the fun of online shopping thinking it requires one to be a technology aficionado then we have good news for you.</p><p> Shopping online particularly at Snapdeal is a child’s play; all you need is a mobile phone or laptop or tablet with Internet connection to get started. Simply log into Snapdeal.com and browse through the wide assortment of products across categories.</p><p> Once you have zeroed in on your favorite products, simply place the order by filling in the details; the products will be delivered right at your doorstep.</p><p> Fulfill Your Entrepreneurial Dreams! Sell Today at Snapdeal Thanks to easy-to-understand, flexible policies and SD Advisors to help sellers at each step, anyone from a manufacturer to wholesaler to retailer can sell on Snapdeal.</p><p> Begin your entrepreneurial journey with Snapdeal as a seller by filling a simple registration form here. Once the registration process is done, you can start selling your products to the entire country by sitting at your home or office.</p><p> Doesn't it sound thrilling? Of course, it is and the excitement will build up with every order you receive! Start selling at Snapdeal today and see your business reach staggering heights.</p> <p>Shop on the Go – Install Snapdeal App Today! You can shop for your favourite products at Snapdeal even on the go using Snapdeal App. Available for both Android and Apple users, the app can be downloaded from Google Play Store and Apple App Store respectively. </p><p>The app is quick, user-friendly, and enables shoppers buy products with a breeze. What's more, get timely notifications on your phone or tablet so that you don't miss amazing deals and offers. Download the app right now and experience how fun it is to shop on your mobile!</p>
+	<h2>
+		Connecting with us
+	</h2>
+	<span id="show"><button onclick="showform()" id="ff">Feedback form</button></span>
+	<br>
+	
+	<p>
+		Tel:+918007457810
+	</p>
+	<p>Email:onlinefashion@gmail.in</p>
+</div>
+
+
+<div class="footer">
+            <h2> Online Fashion store pvt ltd. Margao Goa 403601</h2>
+        </div>
+        <div id="bottom">Designed by Chaitanya Dessai copyright 2019 &copy;</div>
+        <section>
+
+    </section>
+	<h5>Map</h5>
+<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/elementor-pro-discount-code-review/" >elementor discount code</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+
+
+
+
+
+    <a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body{
+	font-family: all;
+	font-size: 12px;
+
+}
+
+#wrapper{
+		width:900px;
+		margin:0px auto;
+		border:2px solid #bbb;
+		padding:10px;
+	
+
+}
+
+#header{
+	width: 850px;
+	border: 1px solid #000;
+	padding:10px;
+
+}
+#content{
+	margin-top: 10px;
+	padding-bottom: 5px;
+}
+#content div{
+	padding: 10px;
+	border: 1px solid #000;
+	float: left;
+}
+
+#content-left{
+	width: 200px;
+	height: 150px;
+}
+#content-main{
+	width: 600px;
+	height: 150px;
+	margin-left: 5px;
+}
