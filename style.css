@@ -381,13 +381,26 @@ background-color: #45a049;
 	}
 	/**responsive **/
 	
-@media screen and(max-width: 480px){
+@media screen and(max-width: 1000px){
 nav{
 	height: auto;
 	overflow: hidden;
 	padding: 5px;
 	width: 100%;
 }
+#content-main{
+	width: 80%;
+}
+.content{
+	width: 100%;
+}
+#wrapper{
+	width: 100%;
+}
+img{
+	width: 100%;
+}
+
 nav ul{
 	float: none;;
 	clear: both;
