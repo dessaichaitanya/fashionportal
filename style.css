@@ -425,7 +425,7 @@ background-image: url('public/img/w.jpg');
 .search-box {
  position: absolute;
  top: 50%;
- margin-left: 800px;
+ margin-left: 0px;
  transform: translate(-50%, -50%);
  background: #4CAF50;
  height: 35px;
