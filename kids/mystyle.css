@@ -29,12 +29,7 @@ body {
 		padding-bottom:20px;
 
 	}
-	/*
-	#content div {
-		padding:10px;
-		
-		float:left;
-	}
+	
 	#content-left {
 		margin-left:20px;
 		width:180px;
@@ -61,7 +56,7 @@ body {
 		background-size: 100% 100%;
 		background-image: url('public/img/a.jpg');
 		animation: slider 30s infinite linear;
-	}
+	} */
 	.content-main {
 		border:1px solid #ccc;
 		min-width:1100px;
@@ -69,7 +64,7 @@ body {
 		float: left;
 		margin-top: 10px;
 		margin-left: 20px;
-	}
+	}/*
 	.main {
 		border:1px solid #ccc;
 		float: left;
@@ -91,7 +86,7 @@ body {
 		background-size: 100% 100%;
 		background-image: url('public/img/c.jpg');
 		height: 400px;
-	}
+	}*/
 	#content-right {
 		
 		width:180px;
@@ -119,7 +114,7 @@ body {
 		
 	}
 	
-/*	The above CSS class applies to all 3 of the box divisions on the page. 
+	The above CSS class applies to all 3 of the box divisions on the page. 
     They are positioned absolutely and then pushed into the correct place by 
     using their margin properties.  
 	
@@ -159,7 +154,7 @@ body {
 	.content-box4 {
 		margin-left:925px;
 		width:200px;
-	}
+	}/*
 	.abt{
 	
 	float: left;
@@ -216,7 +211,7 @@ body {
 		
 		text-align:right;
 		clear:both;
-	}
+	}*/
 	.abt1{
 	width:1160px;
 	height: 200px;
@@ -237,7 +232,7 @@ body {
 	
 	
 	}
-
+/*
 	.abt2 h2{
 		background:#F20068;
 		width: 100%;
