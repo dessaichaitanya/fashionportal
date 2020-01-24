@@ -1,0 +1,338 @@
+/* CSS Layouts Without Tables */
+
+body {
+		font-family:arial,helvetica,sans-serif;
+		font-size:12px;
+		background:#fff;
+	}
+	#wrapper {
+		
+		margin:0px auto;
+		max-width: 1200px;
+		padding:5px;
+		
+	}
+	
+	#header {
+		
+		height:50px;
+		padding:10px;
+		padding-bottom: 20px;
+	}
+	#content {
+		margin-top:10px;
+		padding-bottom:20px;
+
+	}
+	/*
+	#content div {
+		padding:10px;
+		
+		float:left;
+	}
+	#content-left {
+		margin-left:20px;
+		width:180px;
+		min-height:300px;
+		border:1px solid #ccc;
+		margin-top: 10px;
+	}
+	#content-main {
+		border:1px solid #ccc;
+		height:300px;
+		width:700px;
+		float: left;
+		margin-top: 10px;
+		margin-left: 20px;
+		/*position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+
+
+
+
+
+		background-size: 100% 100%;
+		background-image: url('public/img/a.jpg');
+		animation: slider 30s infinite linear;
+	}
+	.content-main {
+		border:1px solid #ccc;
+		min-width:1100px;
+		height:300px;
+		float: left;
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+	.main {
+		border:1px solid #ccc;
+		float: left;
+		margin-top:20px;
+		width: 350px;
+		margin-left: 20px;
+		padding: 10px;
+		background-size: 100% 100%;
+		background-image: url('public/img/f.jpg');
+		height: 400px;
+	}
+	.main3 {
+		border:1px solid #ccc;
+		float: left;
+		margin-top:20px;
+		width: 350px;
+		padding: 10px;
+		margin-left:25px;
+		background-size: 100% 100%;
+		background-image: url('public/img/c.jpg');
+		height: 400px;
+	}
+	#content-right {
+		
+		width:180px;
+		height:300px;
+		float: right;
+		border:1px solid #ccc;
+		margin-top: 10px;
+		margin-left: 20px;
+		
+	}
+	#content-box1, #content-box2, #content-box3, #content-box4 {
+		padding:10px;
+		
+		position:absolute;
+		margin-top:335px;
+		
+		
+	}
+	.content-box1, .content-box2, .content-box3, .content-box4 {
+		padding:10px;
+		
+		position:absolute;
+		margin-top:610px;
+		
+		
+	}
+	
+/*	The above CSS class applies to all 3 of the box divisions on the page. 
+    They are positioned absolutely and then pushed into the correct place by 
+    using their margin properties.  
+	
+	#content-box1 {
+		margin-left:225px;
+		width:200px;
+		
+	}
+	#content-box2 {
+		margin-left:455px;
+		width:200px;
+		
+	}
+	#content-box3 {
+		margin-left:685px;
+		width:200px;
+	}
+	#content-box4 {
+		margin-left:925px;
+		width:200px;
+	}
+	.content-box1 {
+		margin-left:225px;
+		width:200px;
+		
+		text-align: justify;
+	}
+	.content-box2 {
+		margin-left:455px;
+		width:200px;
+		
+	}
+	.content-box3 {
+		margin-left:685px;
+		width:200px;
+	}
+	.content-box4 {
+		margin-left:925px;
+		width:200px;
+	}
+	.abt{
+	
+	float: left;
+	background-size: 100% 100%;
+		background-image: url('public/img/d.jpg');
+	width: 350px;
+	padding: 10px;
+	border:1px solid #ccc;
+	margin-top: 20px;
+	margin-left: 25px;
+	height: 400px;
+	}
+	.main h1{
+		background:#F20068;
+		width: 100%;
+		color: #fff;
+		text-align: center;
+		opacity: .3;
+
+	}
+	.main3 h1{
+		background:#F20068;
+		width: 100%;
+		color: #fff;
+		text-align: center;
+		opacity: .3;
+
+
+	}.abt h1{
+		background:#F20068;
+		width: 100%;
+		color: #fff;
+		text-align: center;
+		opacity: .3;
+
+	}
+
+	.abt1 h2{
+		background:#F20068;
+		width: 100%;
+		color: #fff;
+		text-align: center;
+	}
+	#footer {
+		float: left;
+		margin-top:20px;
+		margin-bottom:10px;
+		padding:10px;
+		margin-left:0px;
+		
+	}
+	#bottom {
+		
+		
+		text-align:right;
+		clear:both;
+	}
+	.abt1{
+	width:1160px;
+	height: 200px;
+	margin-left: 10px;
+	background-color: white;
+	padding: 10px;
+	margin-top: 30px;
+	
+	overflow: auto;
+	}
+	.abt2{
+	width:900px;
+	
+	margin-left: 150px;
+	background-color: white;
+	padding: 10px;
+	margin-top: auto;
+	
+	
+	}
+
+	.abt2 h2{
+		background:#F20068;
+		width: 100%;
+		color: #fff;
+		text-align: center;
+	}
+		.abt2 p{
+		
+		text-align: left;
+	}
+	.btn{
+		text-transform: uppercase;
+		text-align: center;
+		float: left;
+		background-color: #4CAF50;
+		margin-left: 40px;
+		}
+
+	.btn1{
+		
+		
+		 		width: 65%;
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin:5px 30px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                text-transform: uppercase;
+
+
+	}
+	.btn:hover{
+background-color: #45a049;
+	}
+	p{
+		text-align: center;
+	}
+	 #p1{
+		text-align:left;
+	}
+	/**responsive **
+	
+@media screen and(max-width: 480px){
+nav{
+	height: auto;
+	overflow: hidden;
+	padding: 5px;
+	width: 100%;
+}
+nav ul{
+	float: none;;
+	clear: both;
+}
+nav ul li{
+	float: none;
+	width: 100%;
+
+}
+nav ul li a{
+	width: 100%;
+
+}
+}
+
+/***** signup*
+
+/**back to top*
+section{
+  width: 100%;
+  height: 20vh;
+
+
+  
+}
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #27ae60;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}
+
+/* animation slider timinig*
+@keyframes slider{
+	0%{
+		background-image: url('public/img/a.jpg');
+	}
+	35%{
+background-image: url('public/img/w.jpg');
+	}
+	75%{
+		background-image: url('public/img/m1.jpg');
+	}
+
+} */
