@@ -35,7 +35,7 @@ body {
 	}
 	
 
-	
+
 
 	nav ul li a{
 	display:block;
@@ -278,6 +278,9 @@ body {
 		padding:10px;
 		margin-left:0px;
 		
+	}
+	h2{
+		text-align: center;
 	}
 	#bottom {
 		
