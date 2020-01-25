@@ -90,6 +90,12 @@ body {
 
 	}
 
+.card-title {
+  margin-bottom: 0.75rem;
+  text-align: center;
+  
+}
+
 	#content div {
 		padding:10px;
 		
