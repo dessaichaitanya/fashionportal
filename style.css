@@ -25,7 +25,11 @@ body {
                 border:3px solid #32e17c;
                 
 	}
-	
+	.sbtn{
+		margin-left: 250px;
+
+                
+	}
 
 
 	nav ul{
@@ -83,11 +87,6 @@ body {
 	#content {
 		margin-top:30px;
 		padding-bottom:20px;
-
-	}
-	#content1 {
-		margin-top:50px;
-		padding-bottom:40px;
 
 	}
 	#content div {
@@ -169,7 +168,7 @@ body {
 		padding:10px;
 		
 		position:absolute;
-		margin-top:335px;
+		margin-top:380px;
 		
 		
 	}
@@ -177,7 +176,7 @@ body {
 		padding:10px;
 		
 		position:absolute;
-		margin-top:610px;
+		margin-top:650px;
 		
 		
 	}
@@ -425,20 +424,20 @@ background-image: url('public/img/w.jpg');
 .search-box {
  position: absolute;
  top: 50%;
- margin-left: 800px;
+ left: 26%;
  transform: translate(-50%, -50%);
  background: #4CAF50;
- height: 35px;
+ height: 30px;
  border-radius: 50px;
  padding: 8px;
  }
 
 .search-box:hover > .search-txt {
- width: 200px;
+ width: 240px;
  margin-top: -5px;
  
- border-radius: 50px;
-height: 26px;
+ border-radius: 10px;
+
 
 }
 
@@ -446,16 +445,10 @@ height: 26px;
  background: red;
  color: white;
 }
-.sbtn{
-		margin-left: 50px;
-
-                
-	}
 
 .search-btn {
  color: #4CAF50;
  float: right;
- margin-top: -13%;
  width: 40px;
  height: 30px;
  border-radius: 50%;
@@ -487,7 +480,6 @@ height: 26px;
  font-family: 'Bree Serif', serif;
  font-weight: bold;
 }
-
 
 /* rotar*/
 @keyframes rotar{
